@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.mainarea {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    border: 3px solid black;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.as{
+    font-size: 55px;
+    color: aqa;
+}
+.kumar{
+    color: yelow;
+    font-size: 70px;
+}
+.srm{
+    color: yllow;
+    font-size: 45px;
+}
+
+.leftnav {
+    height: 100%;
+    width: 40%;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    background-color: rg(255, 0, 128);
+    .navlogo{
+        height: 100px;
+    }
+}
+
+.rightnav {
+    height: 100%;
+    width: 60%;
+    background-color: eige;
+    list-style: none;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 300px;
+}
+
+.hii {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero {
+    height: 630px;
+    width: 100%;
+    display: flex;
+    background-color: rb(42, 159, 159);
+}
+
+.snap{
+    border-radius: 50%;
+    height: 350px;
+}
+
+.snap:hover {
+    height: 380px;
+}
+
+.lefthero {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.righthero {
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button:hover {
+    background-color: rgb(243, 247, 14);
+    color: rgb(13, 4, 82);
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+
+    .nhi {
+        height: 25px;
+    }
+
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+
+
+}
+
+.nhi {
+    height: 20px;
+}
+
+.logo {
+    height: 40px;
+    width: 200px;
+    gap: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .n {
+        height: 38px;
+    }
+
+    .nn {
+        height: 30px;
+    }
+
+    .nnn {
+        height: 38px;
+    }
+
+    .nnnn {
+        height: 30px;
+    }
+
+    .nnnnn {
+        height: 30px;
+    }
+
+    .nn:hover {
+        height: 37px;
+    }
+
+    .nnn:hover {
+        height: 45px;
+    }
+
+    .nnnn:hover {
+        height: 37px;
+    }
+
+    .nnnnn:hover {
+        height: 37px;
+    }
+}
+
+/*2nd page*/
+
+.mainarea2 {
+    height: 100vh;
+    width: 100vw;
+    /* transform: translateY(-19px); */
+}
+
+.navhai {
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+}
+
+.about {
+    height: 50px;
+}
+
+.hero2 {
+    height: 630px;
+    width: 100%;
+    display: flex;
+}
+.hero2:hover{
+    background-color: azure;
+}
+
+.lefthai {
+    height: 100%;
+    width: 50%;
+    background-color: bluevlet;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 40px;
+}
+
+.righthai {
+    height: 100%;
+    width: 50%;
+    background-color: bwn;
+    display: flex;
+    align-items: centr;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.mai {
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+
+}
+
+.mai:hover {
+    height: 450px;
+    width: 250px;
+}
+
+/* 3rd page */
+
+.mainarea3{
+    height: 100vh;
+    width: 100vw;
+}
+.nav3{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+}
+.hero3{
+    height: 630px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(17, 78, 78); */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.left3{
+    height: 40%;
+    display: flex;
+    width: 50%;
+    /* background-color: yellowgreen; */
+}
+.canva{
+    height: 100%;
+
+}
+.c1{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+.c2{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(219, 160, 82); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.un{
+    color: red;
+}
+.sun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right3{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    /* background-color: tomato; */
+}
+.art{
+    height: 100%;
+    width: 100%;
+}
+.d1{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+}
+.d2{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(219, 160, 82); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.canva:hover{
+    height: 300px;
+}
+.art:hover{
+    height: 300px;
+}
+.school{
+    height: 70px;
+}
+
+/* 4th page */
+
+.mainarea4{
+    height: 100vh;
+    width: 100%;
+}
+.nav4{
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .education{
+        height: 50px;
+    }
+}
+.hero4{
+    height: 630px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.left4{
+    height: 200px;
+    width: 450px;
+    /* background-color: antiquewhite; */
+    /* background-color: turquoise; */
+    .college{
+        height: 100%;
+        width: 450px;
+    }
+    
+}
+.middle4{
+    height: 200px;
+    width: 450px;
+    /* background-color: slategrey; */
+    .st{
+        height: 100%;
+        width: 450px;
+    }
+}
+.right4{
+    height: 193px;
+    width: 450px;
+    /* background-color: sienna; */
+   
+    .santi{
+        height: 100%;
+        width: 450px;
+    }
+}
+.beta1{
+    margin-left: 80px;
+    height: 630px;
+    width: 450px;
+    /* background-color: antiquewhite; */
+}
+
+.beta2{
+    height: 630px;
+    width: 800px;
+    /* background-color: aqua; */
+}
+.ruppar{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    /* background-color: blueviolet; */
+    color: black;
+
+    .blue{
+        color: blue;
+    }
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rmiddle{
+    height: 200px;
+  
+    background-color: white;
+      width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    /* background-color: rgb(12, 111, 28); */
+    color: black;
+    .blue{
+        color: blue;
+    }
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rlast{
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    .blue{
+        color: blue;
+    }
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue:hover{
+    height: 25px;
+    color: brown;
+    /* width: 25px; */
+}
+.green{
+    color: green;
+}
+/* .photo{
+    border-radius: 20px;
+
+} */
+img{
+    border-radius: 20px;
+}
+.rlast:hover{
+    background-color: beige;
+}
+.rmiddle:hover{
+    background-color: beige;
+}
+.ruppar:hover{
+    background-color: beige;
+}
+
+/* 5th page */
+
+.mainarea5{
+    height: 100vh;
+    width: 100vw;
+}
+.nav5{
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact{
+    height: 50px;
+}
+.hero5{
+    height: 630px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.up5{
+    height: 80px;
+    width: 600px;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 30px;
+    color: blue;
+    font-size: 30px;
+}
+.la5{
+    height: 200px;
+    width: 800px;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.num{
+    height: 40px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+}
+.num:hover{
+    color: red;
+    cursor: pointer;
+}
+.mail{
+    height: 40px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+}
+.mail:hover{
+    color: red;
+    cursor: pointer;
+}
+.github{
+    height: 40px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.github:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
